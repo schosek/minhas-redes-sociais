@@ -25,7 +25,7 @@ body {
 }
 
 .main p {
-	margin: 1.25rem 0 100px 0;
+    margin: 2.0rem 0 1.5rem;
 	font-size: 1.125rem;
 	color: #cbd5dd;
 }
@@ -38,14 +38,31 @@ body > p {
 }
 
 .social-links {
- display: flex;
-}
-
-.social-link img {
- display: block;
+    margin-top: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.0rem;
 }
 
 .social-link {
- margin: 0 1rem;
- transition: transform 0.3s ease-in-out;
+    width: 80px;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #161c24;
+    border: 1px solid #303946;
+    border-radius: 16px;
+
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.social-link img {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
 }
