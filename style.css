@@ -1,0 +1,38 @@
+
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	background: #0b0f14;
+	color: #eef2f5;
+	display: flex;
+	align-items: center; 
+	justify-content: center;
+	font-family: 'Montserrat', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+}
+
+.main {
+	text-align: center;
+}
+
+.main h1 {
+    scale: 2.0;
+	margin: 0 0 0.5rem 0;
+	font-size: 3rem;
+	font-weight: 600;
+}
+
+.main p {
+	margin: 1.25rem 0 100px 0;
+	font-size: 1.125rem;
+	color: #cbd5dd;
+}
+
+body > h1 {
+	margin: 0 0 0.5rem 0;
+}
+body > p {
+	margin: 0;
+}
