@@ -36,3 +36,16 @@ body > h1 {
 body > p {
 	margin: 0;
 }
+
+.social-links {
+ display: flex;
+}
+
+.social-link img {
+ display: block;
+}
+
+.social-link {
+ margin: 0 1rem;
+ transition: transform 0.3s ease-in-out;
+}
